@@ -1,0 +1,29 @@
+body {
+  width: 400px;
+  min-height: 300px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* Ajustements pour les formulaires */
+.card {
+  margin-bottom: 15px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #0d6efd;
+}
+
+/* Styles pour les messages de statut */
+.status-message {
+  margin-top: 10px;
+  font-size: 14px;
+}

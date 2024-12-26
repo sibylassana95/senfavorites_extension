@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SenFavorites</title>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="popup.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Section de connexion -->
+    <div id="login-section" class="card shadow-sm">
+      <div class="card-body">
+        <h2 class="card-title text-center text-primary">Connexion</h2>
+        <form>
+          <div class="mb-3">
+            <label for="username" class="form-label">Nom d'utilisateur</label>
+            <input type="text" class="form-control" id="username" placeholder="Entrez votre nom d'utilisateur">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Mot de passe</label>
+            <input type="password" class="form-control" id="password" placeholder="Entrez votre mot de passe">
+          </div>
+          <div class="d-grid">
+            <button type="button" id="loginButton" class="btn btn-primary">Se connecter</button>
+          </div>
+          <p id="loginStatus" class="text-danger mt-3 text-center status-message"></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Section d'ajout de favori -->
+    <div id="add-favorite-section" class="card shadow-sm mt-4 d-none">
+      <div class="card-body">
+        <h2 class="card-title text-center text-primary">Ajouter un Favori</h2>
+        <form>
+          <div class="mb-3">
+            <label for="title" class="form-label">Titre du site</label>
+            <input type="text" class="form-control" id="title" placeholder="Entrez le titre du site">
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label">Description (optionnel)</label>
+            <textarea class="form-control" id="description" rows="3" placeholder="Ajoutez une description"></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="button" id="saveButton" class="btn btn-success">Ajouter</button>
+          </div>
+          <p id="status" class="text-danger mt-3 text-center status-message"></p>
+        </form>
+        <div class="d-grid mt-3">
+          <button type="button" id="logoutButton" class="btn btn-outline-danger">Se déconnecter</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

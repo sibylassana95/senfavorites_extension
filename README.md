@@ -67,6 +67,18 @@ Pour contribuer au développement :
 3. Committez vos changements
 4. Soumettez une pull request
 
+## Scrrenshots 📸   
+
+![Connexion](https://github.com/sibylassana95/senfavorites_extension/blob/main/screen/login.png?raw=true)
+
+![Ajouter un favori](https://github.com/sibylassana95/senfavorites_extension/blob/main/screen/add.png?raw=true)
+
+
 ## License
 
 MIT License
+
+## 👤 Auteur 
+
+[![LASSANA SIBY](https://avatars.githubusercontent.com/u/103085452?u=13ace4d88a52056741734e0f802ca7c0053e1e80&v=4&s=40)](https://github.com/sibylassana95)  
+Created by **[Lassana SIBY](https://github.com/sibylassana95)**
